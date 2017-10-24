@@ -12,7 +12,13 @@
         $age = htmlspecialchars($_GET["age"]);
         echo "こんにちは、 $name さん";
         echo "<br>";
-        echo "$age";
+        echo "あなたは";
+        if($age >= 20){
+            echo "成人";
+        } else {
+            echo "未成年";
+        }
+        echo "です。"; 
     ?>
 </body>
 </html>
