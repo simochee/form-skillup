@@ -7,8 +7,6 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="result.php" method="GET"></form>
-
   <form action="result.php" method="GET">
     <input name="name">
     <input name="age">
