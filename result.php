@@ -8,7 +8,8 @@
 </head>
 <body>
     <?php
-        echo $_GET["name"];
+        $name = $_GET["name"];
+        echo "こんにちは、 $name さん";
         echo "<br>";
         echo $_GET["age"];
     ?>
