@@ -8,10 +8,11 @@
 </head>
 <body>
   <?php
-    $name = $_GET['name'];
+    $name = htmlspecialchars($_GET['name']);
+    $age = htmlspecialchars($_GET['age']);
     echo "こんにちは、 $name さん";
     echo "<br>";
-    echo $_GET['age'];
+    echo $age;
   ?>
 </body>
 </html>
